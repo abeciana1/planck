@@ -13,6 +13,13 @@ body {
     float: left;
 }
 
+hr.solid {
+    border-top: 2px solid black;
+}
+
+main {
+  float: left;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
