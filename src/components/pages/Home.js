@@ -1,5 +1,5 @@
 import React from 'react';
-import PagePaper from '../layouts/PagePaper'
+import PagePaper from '../../layouts/PagePaper'
 
 
 const Home = () => {

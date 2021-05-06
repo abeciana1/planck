@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components'
-// import Flexbox from 'flexbox-react';
 
 const PaperWrapper = styled.div`
     position: absolute;
