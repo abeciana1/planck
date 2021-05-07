@@ -7,16 +7,16 @@ import Shoulders from './components/pages/Shoulders'
 import RedeemShoulders from './components/pages/RedeemShoulders'
 
 function App(props) {
-  let route = props.location.pathname.split('/')
+  // let route = props.location.pathname.split('/')
   return (
     <Switch>
-        <Route path="/shoulders/h"
+        <Route path="/shoulders/:id"
           component={RedeemShoulders}
           />
         <Route exact path="/shoulders"
           component={Shoulders}
         />
-        <Route path="/"
+        <Route exact path="/"
           component={Home}
         />
       </Switch>

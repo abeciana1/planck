@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
+import PlanckLogo from './Planck-bottom-whitespace.png'
 
 const PaperWrapper = styled.div`
     position: absolute;
@@ -19,7 +20,7 @@ const PaperWrapper = styled.div`
 const PagePaper = (props) => {
     return (
             <PaperWrapper>
-                    <img src={process.env.PUBLIC_URL + "./Planck-bottom-whitespace.png"} alt="Planck Footer logo" className="planck-img" style={{ "width": "17%" }} />
+                    <img src={PlanckLogo} alt="Planck Footer logo" className="planck-img" style={{ "width": "17%" }} />
                     <div>
                         <p className="planck-title" style={{ "fontSize": "12px", "zIndex": "1" }}>Planck Manuscripts Vol. 1 (2021)</p>
                     </div>

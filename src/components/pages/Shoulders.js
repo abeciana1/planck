@@ -30,7 +30,7 @@ class Shoulders extends React.Component {
         })
 
         // this.attributionKeyCreator()
-        this.sendAttributionToApi(idKey ,this.state.attribution)
+        this.sendAttributionToApi(idKey, this.state.attribution)
     }
 
     // attributionKeyCreator = () => {
@@ -126,46 +126,13 @@ class Shoulders extends React.Component {
 
                 <p style={{"padding": "3em 0 0 0"}}></p>
             
-                    <blockquote>
+                    <blockquote style={{"textAlign":"center"}}>
                         "If I have seen further than others, it is by standing upon the shoulders of giants."
                         <cite>— Isaac Newton</cite>
-                </blockquote>
+                    </blockquote>
             </PagePaper>
         )
     }
 }
-
-
-// const sendAttributionToApi = (formData) => {
-        //! random id_key generation
-        // let result = [];
-        // let characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-        // let charactersLength = characters.length;
-
-        // for (let i = 0; i < 10; i++ ) {
-        //     result.push(characters.charAt(Math.floor(Math.random() * charactersLength)));
-        // }
-        // let idKey = result.join('')
-
-        // let formDiv = document.querySelector(".form")
-        // formDiv.innerHTML = `<h4>Your link is here: <a href="https://www.p1anck.com/shoulders/${idKey}" target="_blank" rel="noopener">https://www.p1anck.com/shoulders/${idKey}</a></h4>`
-
-    //     let body = {
-    //         attribution: {
-    //             idKey: idKey,
-    //             attrMessage: formData
-    //         }
-    //     }
-
-    //     fetch(apiUrl, {
-    //         method: 'POST',
-    //         headers: {
-    //             'Content-Type': 'application/json',
-    //             'Accept': 'application/json',
-    //         },
-    //         body: JSON.stringify(body)
-    //     })
-    //     .then(response => response.json())
-    // }
 
 export default Shoulders
