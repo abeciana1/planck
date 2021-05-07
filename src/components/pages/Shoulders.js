@@ -93,6 +93,7 @@ class Shoulders extends React.Component {
                             style={{"border":"none", "backgroundColor": "transparent"}}
                             value={this.state.attribution}
                             onChange={this.attributionHandler}
+                            maxLength="1000"
                             />
                             {". And when someone else used it and received funds, they thought you should have some too."}
                             <br />
