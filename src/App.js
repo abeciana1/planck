@@ -5,11 +5,15 @@ import './App.css';
 import Home from './components/pages/Home'
 import Shoulders from './components/pages/Shoulders'
 import RedeemShoulders from './components/pages/RedeemShoulders'
+import AboutMatt from './components/pages/AboutMatt'
 
 function App(props) {
   // let route = props.location.pathname.split('/')
   return (
     <Switch>
+        <Route path="/about-matt"
+          component={AboutMatt}
+        />
         <Route path="/shoulders/:id"
           component={RedeemShoulders}
           />
