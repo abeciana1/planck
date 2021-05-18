@@ -7,12 +7,14 @@ const PaperWrapper = styled.div`
     float: left;
     right: 10%;
     left: 10%;
-    width: 50%;
     @media (min-width: 425px) {
         width: 70%
     }
     @media (min-width: 600px) {
         width: 60%
+    }
+    @media (min-width: 1000px) {
+        width: 50%;
     }
     margin-left: auto;
     margin-right: auto;
