@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <React.Fragment>
                 <PagePaper>
-                    <h1 style={{ "textAlign": "center" }}>
+                    <h1 style={{ "textAlign": "center", "fontSize":"2.5rem" }}>
                         <div style={{"width":"80%", "marginLeft":"auto", "marginRight":"auto"}}>
                             Planck sold the first Science NFT for $24k. Here's what we did... and what we're doing next.
                         </div>
