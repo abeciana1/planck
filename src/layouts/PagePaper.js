@@ -25,7 +25,6 @@ const PaperWrapper = styled.div`
 
 const PagePaper = (props) => {
     return (
-        // <div className="page-paper">
             <PaperWrapper>
                     <img src={PlanckLogo} alt="Planck Footer logo" className="planck-img" id="planck-logo" />
                     <div>
@@ -36,7 +35,6 @@ const PagePaper = (props) => {
                     {props.children}
                 </div>
             </PaperWrapper>
-        // </div>
     )
 }
 

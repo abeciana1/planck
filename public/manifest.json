@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Planck",
+  "name": "Planck is an incentive system for open innovation using non-fungible digital manuscripts on Ethereum.",
   "icons": [
     {
       "src": "favicon.ico",

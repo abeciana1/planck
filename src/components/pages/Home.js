@@ -17,7 +17,7 @@ const Home = () => {
                     <h4>Abstract</h4>
                         <div style={{"marginLeft":"20px", "marginRight":"20px"}}>
                             <p>
-                                <b>Planck is an incentive system for open innovation using non-fungible digital manuscripts on Ethereum.</b>
+                                <b>Planck is an incentive system for open innovation using non-fungible digital manuscripts on Ethereum. </b>
                                 We call these original manuscripts "Glyphs." Original manuscripts of important scientific and innovative works have long been uniquely valuable, and by initiating a novel incentive design around Glyphs we have developed a system to reward thinkers, innovators, and creators.
                                 <b>Planck can be thought of as creating an “alt-patent” system;</b> a non-legal framework for attribution and financial rewards for those who do time-consuming, valuable, knowledge work.
                                 We believe this is essential in the larger project of improving the knowledge commons, helping us all think and create together better.
